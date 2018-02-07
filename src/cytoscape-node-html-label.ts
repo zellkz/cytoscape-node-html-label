@@ -221,10 +221,10 @@ declare const cytoscape: any;
     }
 
     private addCssToDocument() {
-      let stylesWrap = 'position:absolute;z-index:10;width:500px;pointer-events:none;margin:0;padding:0;border:0;outline:0';
-      let stylesElem = 'position:absolute';
-      document.querySelector('head').innerHTML +=
-          `<style>.${this._cssWrap}{${stylesWrap}} .${this._cssElem}{${stylesElem}}</style>`;
+      // let stylesWrap = 'position:absolute;z-index:10;width:500px;pointer-events:none;margin:0;padding:0;border:0;outline:0';
+      // let stylesElem = 'position:absolute';
+      // document.querySelector('head').innerHTML +=
+      //    `<style>.${this._cssWrap}{${stylesWrap}} .${this._cssElem}{${stylesElem}}</style>`;
     }
   }
 
